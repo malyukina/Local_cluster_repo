@@ -40,7 +40,7 @@ docker network connect kind kind-registry
 
 # 7.Copy an image to our local repo
 
-#docker pull centos:8
+docker pull centos:8
 
 docker tag centos:8 localhost:5000/centos:8
 
