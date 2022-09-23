@@ -24,7 +24,7 @@ set -x GITLAB_TOKEN <GITLAB_TOKEN>
 
 brew install fluxcd/tap/flux
 
-# 5.Boostrap (this'll take a few minutes)
+# 5.Bootstrap (this'll take a few minutes)
 flux bootstrap gitlab \
   --context kind-kind \
   --personal \
